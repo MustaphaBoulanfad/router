@@ -1,0 +1,46 @@
+.navbar {
+  width: 100%;
+  background-color: rgb(18, 17, 17);
+}
+.navContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px 0;
+}
+
+.navContainer span {
+  font-size: 24px;
+  color: royalblue;
+  cursor: pointer;
+}
+.navContainer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navContainer nav li a {
+  padding: 10px 15px;
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.navContainer nav li a.active {
+  background-color: royalblue;
+}
+.navContainer button {
+  text-decoration: none;
+  padding: 7px 15px;
+  background-color: rosybrown;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 0;
+}

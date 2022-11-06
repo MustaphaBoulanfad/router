@@ -1,0 +1,17 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h3 {
+  color: rosybrown;
+  text-transform: uppercase;
+}
+p {
+  font-size: 20px;
+}
+p span {
+  font-size: 24px;
+  color: royalblue;
+}

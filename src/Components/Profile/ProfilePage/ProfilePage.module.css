@@ -1,0 +1,8 @@
+.editContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editContainer h1 {
+  color: royalblue;
+}

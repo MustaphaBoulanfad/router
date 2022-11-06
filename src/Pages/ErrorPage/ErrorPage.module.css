@@ -1,0 +1,17 @@
+.error {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error h1 {
+  color: rgb(66, 65, 65);
+  font-weight: 500;
+}
+.error span {
+  color: royalblue;
+  font-size: 120px;
+  margin-right: 15px;
+  font-weight: 800;
+}
